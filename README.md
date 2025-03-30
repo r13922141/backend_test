@@ -3,7 +3,7 @@
 ```
 npm install cors express morgan pg winston helmet
 ```
-## 需連線至本必pg 建立.env 內容如下 可自行更改XXX
+## 需連線至本必須建立.env 內容如下 可自行更改XXX
 ```
 DB_USER=postgres
 DB_HOST=localhost
