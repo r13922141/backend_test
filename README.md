@@ -1,13 +1,17 @@
 # backend_test (node.js)
 ## env npm
-``` npm install cors express morgan pg winston helmet```
+```
+npm install cors express morgan pg winston helmet
+```
 ## 需連線至本必pg 建立.env 內容如下 可自行更改XXX
-```DB_USER=postgres
+```
+DB_USER=postgres
 DB_HOST=localhost
 DB_NAME=XXX
 DB_PASS=XXX
 DB_PORT=5432
-PORT=3000```
+PORT=3000
+```
 ## 測試api
 ### 開啟server
 node server.js
